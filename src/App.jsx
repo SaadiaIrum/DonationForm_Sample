@@ -8,7 +8,7 @@ const App = () => {
     <div className="min-h-screen relative w-full flex flex-col overflow-x-hidden">
       <Nav />
       <br />
-      <main className="w-full flex flex-col lg:flex-row bg-white-200 mt-3 px-6 xl:px-15 lg:px-10 md:px-2 sm:px-1 bg-amber-300 gap-1">
+      <main className="w-full flex flex-col lg:flex-row bg-white-200 mt-3 px-6 xl:px-15 lg:px-10 md:px-2 sm:px-1 gap-1">
         {/* left Section */}
         <div className="xl:w-[70%] lg:w-[65%] md:w-full sm:w-full md:mx-2">
           <Section1 />
@@ -16,7 +16,7 @@ const App = () => {
         </div>
 
         {/* Right Section */}
-        <div className="xl:w-[30%] lg:w-[35%] md:w-full sm:w-full bg-amber-700 md:bg-blue-400 ">
+        <div className="xl:w-[30%] lg:w-[35%] md:w-full sm:w-full">
           <PersonalInfo />
         </div>
       </main>
